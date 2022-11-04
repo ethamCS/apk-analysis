@@ -1,4 +1,5 @@
-./FDroid-Download/node_modules
+FDroid-Download/node_modules
 bin/
 lib/
-include\
+include/
+results/
