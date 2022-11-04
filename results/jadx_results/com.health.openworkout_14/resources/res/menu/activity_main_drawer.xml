@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/menu_top" android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_home" android:id="@+id/nav_home" android:title="@string/menu_home"/>
+        <item android:icon="@drawable/ic_goal" android:id="@+id/nav_trainings" android:title="@string/menu_trainings"/>
+        <item android:icon="@drawable/ic_settings" android:id="@+id/nav_main_preferences" android:title="@string/menu_settings"/>
+    </group>
+    <group android:id="@+id/menu_bottom" android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_help" android:id="@+id/nav_help" android:title="@string/label_help"/>
+        <item android:icon="@drawable/ic_info" android:id="@+id/nav_about" android:title="@string/label_about"/>
+    </group>
+</menu>

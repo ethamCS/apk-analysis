@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"> xmlns:app=&quot;http://schemas.android.com/apk/res-auto&quot;&gt; 
+    <PreferenceCategory android:title="@string/general">
+        <EditTextPreference android:text="@string/GLUCOSE_THRESHOLDS_DEFAULT" android:selectAllOnFocus="true" android:title="@string/thresholds" android:key="etGlucoseThresholds" android:summary="@string/thresholdSummaryRange" android:defaultValue="@string/GLUCOSE_THRESHOLDS_DEFAULT" android:inputType="text"/>
+        <SwitchPreference android:title="@string/showTime" android:key="swGlucoseShowtime" android:summary="@string/showTimeSummary" android:defaultValue="@string/SHOWTIME_DEFAULT"/>
+        <SwitchPreference android:title="@string/highlightValues" android:key="cbGlucoseHighlightValues" android:summary="@string/highlightValuesSummaryRange" android:defaultValue="@string/GLUCOSE_HIGHLIGHT_VALUES_DEFAULT"/>
+        <ListPreference android:entries="@array/glucoseUnits" android:title="@string/unit" android:key="lpGlucoseUnit" android:summary="@string/glucoseUnitSummary" android:defaultValue="@string/GLUCOSE_UNIT" android:entryValues="@array/glucoseUnits"/>
+        <SwitchPreference android:title="@string/logKetone" android:key="cbLogKetone" android:summary="@string/logKetoneSummary" android:defaultValue="@string/LOG_KETONE_DEFAULT"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/actionPDF">
+        <SwitchPreference android:title="@string/landscapeOrientation" android:key="cbGlucoseLandscape" android:summary="@string/landscapeOrientationSummary" android:defaultValue="false"/>
+        <ListPreference android:entries="@array/paperSizes" android:title="@string/paperSize" android:key="liGlucosePaperSize" android:summary="@string/paperSizeSummary" android:defaultValue="A4" android:entryValues="@array/paperSizes"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/chart">
+        <SwitchPreference android:title="@string/showThresholds" android:key="cbShowGlucoseThresholds" android:summary="@string/showThresholdsSummary" android:defaultValue="true"/>
+        <SwitchPreference android:title="@string/showGrid" android:key="cbShowGlucoseGrid" android:summary="@string/showGridSummary" android:defaultValue="@string/GLUCOSE_SHOW_GRID_DEFAULT"/>
+        <SwitchPreference android:title="@string/showLegend" android:key="cbShowGlucoseLegend" android:summary="@string/showLegendSummary" android:defaultValue="@string/GLUCOSE_SHOW_LEGEND_DEFAULT"/>
+    </PreferenceCategory>
+</PreferenceScreen>

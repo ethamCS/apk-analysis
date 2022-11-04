@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/rl" android:padding="0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="0dp" android:layout_marginTop="0dp" android:layout_marginRight="0dp" android:layout_marginBottom="0dp">
+    <TextView android:textSize="21sp" android:textStyle="bold" android:gravity="center" android:id="@+id/main_menu_header" android:paddingTop="6dp" android:paddingBottom="1dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/app_name"/>
+    <TextView android:textSize="17sp" android:gravity="center" android:paddingTop="1dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/main_menu_details"/>
+    <ScrollView android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:layout_width="match_parent" android:layout_height="10dp"/>
+            <Button android:textSize="21sp" android:id="@+id/enter_data" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <View android:layout_width="match_parent" android:layout_height="5dp"/>
+            <Button android:textSize="21sp" android:id="@+id/review_data" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <View android:id="@+id/review_spacer" android:layout_width="match_parent" android:layout_height="5dp"/>
+            <Button android:textSize="21sp" android:id="@+id/send_data" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <View android:layout_width="match_parent" android:layout_height="20dp"/>
+            <Button android:textSize="21sp" android:id="@+id/get_forms" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <View android:id="@+id/get_forms_spacer" android:layout_width="match_parent" android:layout_height="5dp"/>
+            <Button android:textSize="21sp" android:id="@+id/manage_forms" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

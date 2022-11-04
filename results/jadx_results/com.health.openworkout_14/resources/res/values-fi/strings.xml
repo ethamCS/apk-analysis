@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Siirry etusivulle</string>
+    <string name="a_res_0x7f100008">Siirry ylös</string>
+    <string name="abc_action_menu_overflow_description">Lisäasetukset</string>
+    <string name="abc_action_mode_done">Valmis</string>
+    <string name="abc_activity_chooser_view_see_all">Näytä kaikki</string>
+    <string name="abc_activitychooserview_choose_application">Valitse sovellus</string>
+    <string name="abc_capital_off">POIS PÄÄLTÄ</string>
+    <string name="abc_capital_on">PÄÄLLÄ</string>
+    <string name="b_res_0x7f10000f">Alt+</string>
+    <string name="c_res_0x7f100010">Ctrl+</string>
+    <string name="d_res_0x7f100011">delete</string>
+    <string name="e_res_0x7f100012">enter</string>
+    <string name="f_res_0x7f100013">Fn+</string>
+    <string name="g_res_0x7f100014">Meta+</string>
+    <string name="h_res_0x7f100015">Vaihto+</string>
+    <string name="i_res_0x7f100016">välilyönti</string>
+    <string name="j_res_0x7f100017">Sym+</string>
+    <string name="k_res_0x7f100018">Valikko+</string>
+    <string name="abc_search_hint">Haku…</string>
+    <string name="abc_searchview_description_clear">Tyhjennä kysely</string>
+    <string name="abc_searchview_description_query">Hakukysely</string>
+    <string name="l_res_0x7f10001c">Haku</string>
+    <string name="abc_searchview_description_submit">Lähetä kysely</string>
+    <string name="abc_searchview_description_voice">Puhehaku</string>
+    <string name="abc_shareactionprovider_share_with">Jaa…</string>
+    <string name="abc_shareactionprovider_share_with_application">Jaa: %s</string>
+    <string name="abc_toolbar_collapse_description">Tiivistä</string>
+    <string name="a_res_0x7f10002b">Kopioi</string>
+    <string name="b_res_0x7f10003f">Lisäasetukset</string>
+    <string name="a_res_0x7f1000bb">Siirry ylös</string>
+    <string name="b_res_0x7f1000bc">Avaa navigoinnin vetopaneeli</string>
+    <string name="c_res_0x7f1000c0">Ei asetettu</string>
+    <string name="d_res_0x7f1000c6">%1$s kopioitiin leikepöydälle.</string>
+    <string name="search_menu_title">Haku</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="e_res_0x7f1000de">%1$s, %2$s</string>
+    <string name="v7_preference_off">POIS KÄYTÖSTÄ</string>
+    <string name="v7_preference_on">KÄYTÖSSÄ</string>
+</resources>

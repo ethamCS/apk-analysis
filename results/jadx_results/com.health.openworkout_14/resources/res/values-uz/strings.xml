@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Boshiga o‘tish</string>
+    <string name="a_res_0x7f100008">Yopish</string>
+    <string name="abc_action_menu_overflow_description">Yana</string>
+    <string name="abc_action_mode_done">OK</string>
+    <string name="abc_activity_chooser_view_see_all">Hammasi</string>
+    <string name="abc_activitychooserview_choose_application">Ilovani tanlang</string>
+    <string name="abc_capital_off">YOQILMAGAN</string>
+    <string name="abc_capital_on">YONIQ</string>
+    <string name="b_res_0x7f10000f">Alt+</string>
+    <string name="c_res_0x7f100010">Ctrl+</string>
+    <string name="d_res_0x7f100011">Delete</string>
+    <string name="e_res_0x7f100012">Enter</string>
+    <string name="f_res_0x7f100013">Fn+</string>
+    <string name="g_res_0x7f100014">Meta+</string>
+    <string name="h_res_0x7f100015">Shift+</string>
+    <string name="i_res_0x7f100016">Probel</string>
+    <string name="j_res_0x7f100017">Sym+</string>
+    <string name="k_res_0x7f100018">Menyu+</string>
+    <string name="abc_search_hint">Qidirish…</string>
+    <string name="abc_searchview_description_clear">So‘rovni o‘chirish</string>
+    <string name="abc_searchview_description_query">Qidiruv so‘rovi</string>
+    <string name="l_res_0x7f10001c">Qidiruv</string>
+    <string name="abc_searchview_description_submit">So‘rov yaratish</string>
+    <string name="abc_searchview_description_voice">Ovozli qidiruv</string>
+    <string name="abc_shareactionprovider_share_with">Ulashish</string>
+    <string name="abc_shareactionprovider_share_with_application">%s orqali ulashish</string>
+    <string name="abc_toolbar_collapse_description">Yig‘ish</string>
+    <string name="a_res_0x7f10002b">Nusxa olish</string>
+    <string name="b_res_0x7f10003f">Kengaytirilgan</string>
+    <string name="a_res_0x7f1000bb">Tepaga</string>
+    <string name="b_res_0x7f1000bc">Navigatsiya panelini ochish</string>
+    <string name="c_res_0x7f1000c0">Tayinlanmagan</string>
+    <string name="d_res_0x7f1000c6">“%1$s” vaqtinchalik xotiraga nusxalandi.</string>
+    <string name="search_menu_title">Qidiruv</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="e_res_0x7f1000de">%1$s, %2$s</string>
+    <string name="v7_preference_off">YOQILMAGAN</string>
+    <string name="v7_preference_on">YONIQ</string>
+</resources>

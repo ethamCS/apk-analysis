@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Перейти на головну</string>
+    <string name="a_res_0x7f100008">Перейти вгору</string>
+    <string name="abc_action_menu_overflow_description">Більше опцій</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Показати всі</string>
+    <string name="abc_activitychooserview_choose_application">Вибрати програму</string>
+    <string name="abc_capital_off">ЗНИЖКА</string>
+    <string name="abc_capital_on">УВІМК.</string>
+    <string name="b_res_0x7f10000f">Alt+</string>
+    <string name="c_res_0x7f100010">Ctrl+</string>
+    <string name="d_res_0x7f100011">delete</string>
+    <string name="e_res_0x7f100012">enter</string>
+    <string name="f_res_0x7f100013">Function+</string>
+    <string name="g_res_0x7f100014">Meta+</string>
+    <string name="h_res_0x7f100015">Shift+</string>
+    <string name="i_res_0x7f100016">пробіл</string>
+    <string name="j_res_0x7f100017">Sym+</string>
+    <string name="k_res_0x7f100018">Menu+</string>
+    <string name="abc_search_hint">Введіть пошуковий запит…</string>
+    <string name="abc_searchview_description_clear">Очистити запит</string>
+    <string name="abc_searchview_description_query">Пошуковий запит</string>
+    <string name="l_res_0x7f10001c">Пошук</string>
+    <string name="abc_searchview_description_submit">Наіслати запит</string>
+    <string name="abc_searchview_description_voice">Голосовий пошук</string>
+    <string name="abc_shareactionprovider_share_with">Поділитися:</string>
+    <string name="abc_shareactionprovider_share_with_application">Поділитися через додаток %s</string>
+    <string name="abc_toolbar_collapse_description">Згорнути</string>
+    <string name="a_res_0x7f10002b">Скопіювати</string>
+    <string name="b_res_0x7f10003f">Додатково</string>
+    <string name="a_res_0x7f1000bb">Перейти вгору</string>
+    <string name="b_res_0x7f1000bc">Відкрити панель навігації</string>
+    <string name="c_res_0x7f1000c0">Не налаштовано</string>
+    <string name="d_res_0x7f1000c6">\"%1$s\": скопійовано в буфер обміну.</string>
+    <string name="search_menu_title">Пошук</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="e_res_0x7f1000de">%1$s, %2$s</string>
+    <string name="v7_preference_off">ВИМКНЕНО</string>
+    <string name="v7_preference_on">УВІМКНЕНО</string>
+</resources>

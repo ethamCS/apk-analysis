@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">瀏覽主頁</string>
+    <string name="a_res_0x7f100008">向上瀏覽</string>
+    <string name="abc_action_menu_overflow_description">更多選項</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">選擇應用程式</string>
+    <string name="abc_capital_off">關閉</string>
+    <string name="abc_capital_on">開啟</string>
+    <string name="b_res_0x7f10000f">Alt +</string>
+    <string name="c_res_0x7f100010">Ctrl +</string>
+    <string name="d_res_0x7f100011">刪除</string>
+    <string name="e_res_0x7f100012">Enter 鍵</string>
+    <string name="f_res_0x7f100013">Fn +</string>
+    <string name="g_res_0x7f100014">Meta +</string>
+    <string name="h_res_0x7f100015">Shift +</string>
+    <string name="i_res_0x7f100016">空白鍵</string>
+    <string name="j_res_0x7f100017">Sym +</string>
+    <string name="k_res_0x7f100018">Menu +</string>
+    <string name="abc_search_hint">搜尋…</string>
+    <string name="abc_searchview_description_clear">清除查詢</string>
+    <string name="abc_searchview_description_query">搜尋查詢</string>
+    <string name="l_res_0x7f10001c">搜尋</string>
+    <string name="abc_searchview_description_submit">提交查詢</string>
+    <string name="abc_searchview_description_voice">語音搜尋</string>
+    <string name="abc_shareactionprovider_share_with">分享對象</string>
+    <string name="abc_shareactionprovider_share_with_application">使用「%s」分享</string>
+    <string name="abc_toolbar_collapse_description">收合</string>
+    <string name="a_res_0x7f10002b">複製</string>
+    <string name="b_res_0x7f10003f">進階</string>
+    <string name="a_res_0x7f1000bb">向上導覽</string>
+    <string name="b_res_0x7f1000bc">開啟導覽列</string>
+    <string name="c_res_0x7f1000c0">未設定</string>
+    <string name="d_res_0x7f1000c6">「%1$s」已複製到剪貼簿。</string>
+    <string name="search_menu_title">搜尋</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="e_res_0x7f1000de">%1$s、%2$s</string>
+    <string name="v7_preference_off">關閉</string>
+    <string name="v7_preference_on">開啟</string>
+</resources>

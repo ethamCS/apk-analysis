@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">ഹോമിലേക്ക് പോവുക</string>
+    <string name="a_res_0x7f100008">മുകളിലേക്ക് പോവുക</string>
+    <string name="abc_action_menu_overflow_description">കൂടുതൽ ഓപ്ഷനുകൾ</string>
+    <string name="abc_action_mode_done">പൂർത്തിയായി</string>
+    <string name="abc_activity_chooser_view_see_all">എല്ലാം കാണുക</string>
+    <string name="abc_activitychooserview_choose_application">ആപ്പ് തിരഞ്ഞെടുക്കുക</string>
+    <string name="abc_capital_off">ഓഫ്</string>
+    <string name="abc_capital_on">ഓൺ</string>
+    <string name="b_res_0x7f10000f">Alt+</string>
+    <string name="c_res_0x7f100010">Ctrl+</string>
+    <string name="d_res_0x7f100011">ഇല്ലാതാക്കുക</string>
+    <string name="e_res_0x7f100012">enter</string>
+    <string name="f_res_0x7f100013">ഫംഗ്ഷന്‍+</string>
+    <string name="g_res_0x7f100014">മെറ്റ+</string>
+    <string name="h_res_0x7f100015">Shift+</string>
+    <string name="i_res_0x7f100016">സ്‌പെയ്‌സ്</string>
+    <string name="j_res_0x7f100017">Sym+</string>
+    <string name="k_res_0x7f100018">മെനു+</string>
+    <string name="abc_search_hint">തിരയുക…</string>
+    <string name="abc_searchview_description_clear">ചോദ്യം മായ്‌ക്കുക</string>
+    <string name="abc_searchview_description_query">ചോദ്യം തിരയുക</string>
+    <string name="l_res_0x7f10001c">തിരയുക</string>
+    <string name="abc_searchview_description_submit">ചോദ്യം സമർപ്പിക്കുക</string>
+    <string name="abc_searchview_description_voice">സംസാരത്തിലൂടെ തിരയുക</string>
+    <string name="abc_shareactionprovider_share_with">ഇനിപ്പറയുന്നതുമായി പങ്കിടുക</string>
+    <string name="abc_shareactionprovider_share_with_application">%s എന്നതുമായി പങ്കിടുക</string>
+    <string name="abc_toolbar_collapse_description">ചുരുക്കുക</string>
+    <string name="a_res_0x7f10002b">പകർത്തുക</string>
+    <string name="b_res_0x7f10003f">വിപുലമായത്</string>
+    <string name="a_res_0x7f1000bb">മുകളിലേക്ക് നാവിഗേറ്റ് ചെയ്യുക</string>
+    <string name="b_res_0x7f1000bc">നാവിഗേഷൻ ഡ്രോയർ തുറക്കുക</string>
+    <string name="c_res_0x7f1000c0">സജ്ജീകരിച്ചിട്ടില്ല</string>
+    <string name="d_res_0x7f1000c6">\"%1$s\" ക്ലിപ്‌ബോർഡിലേക്ക് പകർത്തി.</string>
+    <string name="search_menu_title">തിരയുക</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="e_res_0x7f1000de">%1$s, %2$s</string>
+    <string name="v7_preference_off">ഓഫാണ്</string>
+    <string name="v7_preference_on">ഓൺ</string>
+</resources>

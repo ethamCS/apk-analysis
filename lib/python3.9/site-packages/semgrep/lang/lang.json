@@ -1,0 +1,273 @@
+[
+  {
+    "id": "bash",
+    "name": "Bash",
+    "keys": ["bash", "sh"],
+    "exts": [".bash", ".sh"],
+    "example_ext": ".sh",
+    "maturity": "alpha",
+    "shebangs": ["bash", "sh"]
+  },
+  {
+    "id": "c",
+    "name": "C",
+    "keys": ["c"],
+    "exts": [".c"],
+    "maturity": "alpha",
+    "shebangs": []
+  },
+  {
+    "id": "cpp",
+    "name": "C++",
+    "keys": ["cpp", "c++"],
+    "exts": [".cc", ".cpp"],
+    "example_ext": ".cpp",
+    "maturity": "alpha",
+    "shebangs": []
+  },
+  {
+    "id": "csharp",
+    "name": "C#",
+    "keys": ["csharp", "c#"],
+    "exts": [".cs"],
+    "maturity": "ga",
+    "shebangs": []
+  },
+  {
+    "id": "dockerfile",
+    "name": "Dockerfile",
+    "keys": ["dockerfile", "docker"],
+    "exts": [".dockerfile", ".Dockerfile", "Dockerfile"],
+    "example_ext": ".dockerfile",
+    "maturity": "alpha",
+    "shebangs": []
+  },
+  {
+    "id": "elixir",
+    "name": "Elixir",
+    "keys": ["ex", "elixir"],
+      "exts": [".ex", ".exs"],
+    "maturity": "develop",
+    "shebangs": []
+  },
+  {
+    "id": "generic",
+    "name": "Generic",
+    "keys": ["generic"],
+    "exts": [""],
+    "example_ext": ".generic",
+    "maturity": "alpha",
+    "shebangs": []
+  },
+  {
+    "id": "go",
+    "name": "Go",
+    "keys": ["go", "golang"],
+    "exts": [".go"],
+    "maturity": "ga",
+    "shebangs": []
+  },
+  {
+    "id": "hack",
+    "name": "Hack",
+    "keys": ["hack"],
+    "exts": [".hack", ".hck", ".hh"],
+    "example_ext": ".hack",
+    "maturity": "develop",
+    "shebangs": ["hhvm"]
+  },
+  {
+    "id": "html",
+    "name": "HTML",
+    "keys": ["html"],
+    "exts": [".htm", ".html"],
+    "example_ext": ".html",
+    "maturity": "alpha",
+    "shebangs": []
+  },
+  {
+    "id": "java",
+    "name": "Java",
+    "keys": ["java"],
+    "exts": [".java"],
+    "maturity": "ga",
+    "shebangs": []
+  },
+  {
+    "id": "js",
+    "name": "JavaScript",
+    "keys": ["js", "javascript"],
+    "exts": [".js", ".jsx"],
+    "excluded_exts": [".min.js"],
+    "example_ext": ".jsx",
+    "maturity": "ga",
+    "shebangs": ["node", "js", "nodejs"],
+    "tags": ["is_js"]
+  },
+  {
+    "id": "json",
+    "name": "JSON",
+    "keys": ["json"],
+    "exts": [".json"],
+    "maturity": "ga",
+    "shebangs": []
+  },
+  {
+    "id": "kotlin",
+    "name": "Kotlin",
+    "keys": ["kt", "kotlin"],
+    "exts": [".kt", ".kts", ".ktm"],
+    "example_ext": ".kt",
+    "maturity": "beta",
+    "shebangs": []
+  },
+  {
+    "id": "lua",
+    "name": "Lua",
+    "keys": ["lua"],
+    "exts": [".lua"],
+    "maturity": "alpha",
+    "shebangs": ["lua"]
+  },
+  {
+    "id": "ocaml",
+    "name": "OCaml",
+    "keys": ["ocaml"],
+    "exts": [".ml", ".mli"],
+    "example_ext": ".ml",
+    "maturity": "alpha",
+    "shebangs": ["ocaml", "ocamlscript"]
+  },
+  {
+    "id": "php",
+    "name": "PHP",
+    "keys": ["php"],
+    "exts": [".php", ".tpl"],
+    "maturity": "alpha",
+    "shebangs": ["php"]
+  },
+  {
+    "id": "python2",
+    "name": "Python 2",
+    "keys": ["python2"],
+    "exts": [".py", ".pyi"],
+    "reverse_exts": [],
+    "example_ext": ".py",
+    "maturity": "develop",
+    "shebangs": ["python", "python2"],
+    "tags": ["is_python"]
+  },
+  {
+    "id": "python3",
+    "name": "Python 3",
+    "keys": ["python3"],
+    "exts": [".py", ".pyi"],
+    "reverse_exts": [],
+    "example_ext": ".py",
+    "maturity": "develop",
+    "shebangs": ["python", "python3"],
+    "tags": ["is_python"]
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "keys": ["py", "python"],
+    "exts": [".py", ".pyi"],
+    "example_ext": ".py",
+    "maturity": "ga",
+    "shebangs": ["python", "python2", "python3"],
+    "tags": ["is_python"]
+  },
+  {
+    "id": "r",
+    "name": "R",
+    "keys": ["r"],
+    "exts": [".r", ".R"],
+    "example_ext": ".R",
+    "maturity": "develop"
+  },
+  {
+    "id": "regex",
+    "name": "regex",
+    "keys": ["regex", "none"],
+    "exts": [""],
+    "reverse_exts": [],
+    "maturity": "develop"
+  },
+  {
+    "id": "ruby",
+    "name": "Ruby",
+    "keys": ["ruby"],
+    "exts": [".rb"],
+    "maturity": "ga",
+    "shebangs": ["ruby"]
+  },
+  {
+    "id": "rust",
+    "name": "Rust",
+    "keys": ["rust"],
+    "exts": [".rs"],
+    "maturity": "alpha",
+    "shebangs": ["run-cargo-script"]
+  },
+  {
+    "id": "scala",
+    "name": "Scala",
+    "keys": ["scala"],
+    "exts": [".scala"],
+    "maturity": "ga",
+    "shebangs": ["scala"]
+  },
+  {
+    "id": "solidity",
+    "name": "Solidity",
+    "keys": ["solidity", "sol"],
+    "exts": [".sol"],
+    "maturity": "alpha",
+    "shebangs": []
+  },
+  {
+    "id": "swift",
+    "name": "Swift",
+    "keys": ["swift"],
+    "exts": [".swift"],
+    "maturity": "develop",
+    "shebangs": []
+  },
+  {
+    "id": "hcl",
+    "name": "Terraform",
+    "keys": ["tf", "hcl", "terraform"],
+    "exts": [".tf", ".hcl"],
+    "maturity": "beta",
+    "shebangs": []
+  },
+  {
+    "id": "ts",
+    "name": "TypeScript",
+    "keys": ["ts", "typescript"],
+    "exts": [".ts", ".tsx"],
+    "excluded_exts": [".d.ts"],
+    "example_ext": ".tsx",
+    "maturity": "ga",
+    "shebangs": ["ts-node"],
+    "tags": ["is_js"]
+  },
+  {
+    "id": "vue",
+    "name": "Vue",
+    "keys": ["vue"],
+    "exts": [".vue"],
+    "maturity": "develop",
+    "shebangs": []
+  },
+  {
+    "id": "yaml",
+    "name": "YAML",
+    "keys": ["yaml"],
+    "exts": [".yml", ".yaml"],
+    "example_ext": ".yaml",
+    "maturity": "alpha",
+    "shebangs": []
+  }
+]

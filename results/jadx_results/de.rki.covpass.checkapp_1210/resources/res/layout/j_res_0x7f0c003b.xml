@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/backgroundPrimary" android:layout_width="match_parent" android:layout_height="match_parent">
+    <de.rki.covpass.commonapp.uielements.CenteredTitleToolbar android:theme="@style/CovPassAppTheme.DarkControlHighlight" android:gravity="center_vertical" android:id="@+id/K_res_0x7f0900ef" android:background="@color/backgroundPrimary" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/grid_seven" android:paddingStart="@dimen/b_res_0x7f0600a9" android:paddingEnd="@dimen/b_res_0x7f0600a9" android:elevation="@dimen/elevation" app:popupTheme="@style/CovPassAppTheme.DarkControlHighlight"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/G_res_0x7f0900eb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/grid_three" android:layout_marginTop="@dimen/a_res_0x7f0600a4" android:layout_marginRight="@dimen/grid_three" android:layout_marginHorizontal="@dimen/grid_three" style="@style/a_res_0x7f110118"/>
+            <de.rki.covpass.commonapp.uielements.ExpertModeToggleElement android:id="@+id/H_res_0x7f0900ec" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/grid_three"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/buttonholder" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:textSize="16sp" android:id="@+id/toggle_button" android:padding="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/toggle_selected" android:layout_weight="1"/>
+        <Button android:textSize="16sp" android:id="@+id/refresh_button" android:padding="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/refresh" android:layout_weight="1"/>
+        <Button android:textSize="16sp" android:id="@+id/add_button" android:padding="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/download" android:layout_weight="1"/>
+    </LinearLayout>
+    <ListView android:id="@android:id/list" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/buttonholder" android:layout_alignParentTop="true"/>
+    <TextView android:textSize="21sp" android:gravity="center" android:id="@android:id/empty" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/no_items_display"/>
+</RelativeLayout>

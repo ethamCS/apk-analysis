@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/grid_twentytwo" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/s0_res_0x7f0901b3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/grid_five" android:adjustViewBounds="true" android:contentDescription="@string/accessibility_image_alternative_text"/>
+        <TextView android:id="@+id/u0_res_0x7f0901b5" android:paddingLeft="@dimen/grid_three" android:paddingRight="@dimen/grid_three" android:paddingBottom="@dimen/grid_one_half" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/grid_three" style="@style/e_res_0x7f11012d"/>
+        <TextView android:id="@+id/v0_res_0x7f0901b6" android:paddingLeft="@dimen/grid_three" android:paddingRight="@dimen/grid_three" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/grid_three" style="@style/b_res_0x7f11011b"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:id="@+id/round_button_container" android:background="?attr/selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/round_button_min_size" android:minHeight="@dimen/round_button_min_size">
+    <ImageView android:id="@+id/C0_res_0x7f090200" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/d_res_0x7f0700d5" android:adjustViewBounds="true" android:minWidth="@dimen/icon_size_round_button" android:minHeight="@dimen/icon_size_round_button"/>
+</RelativeLayout>

@@ -1,0 +1,51 @@
+package c.b.b.w.n;
+
+import c.b.b.r;
+import c.b.b.t;
+import c.b.b.u;
+import java.sql.Time;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+/* loaded from: classes.dex */
+public final class k extends t<Time> {
+
+    /* renamed from: b */
+    public static final u f554b = new a();
+
+    /* renamed from: a */
+    private final DateFormat f555a = new SimpleDateFormat("hh:mm:ss a");
+
+    /* loaded from: classes.dex */
+    static class a implements u {
+        a() {
+        }
+
+        @Override // c.b.b.u
+        public <T> t<T> a(c.b.b.e eVar, c.b.b.x.a<T> aVar) {
+            if (aVar.c() == Time.class) {
+                return new k();
+            }
+            return null;
+        }
+    }
+
+    /* renamed from: e */
+    public synchronized Time b(c.b.b.y.a aVar) {
+        if (aVar.x() == c.b.b.y.b.NULL) {
+            aVar.t();
+            return null;
+        }
+        try {
+            return new Time(this.f555a.parse(aVar.v()).getTime());
+        } catch (ParseException e2) {
+            throw new r(e2);
+        }
+    }
+
+    /* renamed from: f */
+    public synchronized void d(c.b.b.y.c cVar, Time time) {
+        cVar.z(time == null ? null : this.f555a.format((Date) time));
+    }
+}

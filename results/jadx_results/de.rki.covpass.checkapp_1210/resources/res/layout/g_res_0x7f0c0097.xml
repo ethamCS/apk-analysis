@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/grid_twelve">
+    <com.google.android.material.card.MaterialCardView android:theme="@style/CovPassAppTheme.DarkControlHighlight" android:id="@+id/F_res_0x7f0901d8" android:background="@drawable/g" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="@dimen/grid_twelve" app:cardBackgroundColor="@color/validation_result_2g_element_background_color" app:cardUseCompatPadding="false" app:rippleColor="?attr/colorControlHighlight" style="@style/CovPassCardView.Level">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/grid_twelve">
+            <ImageView android:id="@+id/G_res_0x7f0901d9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" android:layout_marginStart="@dimen/grid_three" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/H_res_0x7f0901da" android:paddingTop="@dimen/grid_three" android:paddingBottom="@dimen/grid_three" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginStart="@dimen/grid_one_half" android:layout_marginEnd="@dimen/grid_three" android:paddingVertical="@dimen/grid_three" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@+id/G_res_0x7f0901d9" app:layout_constraintTop_toTopOf="0">
+                <TextView android:id="@+id/J_res_0x7f0901dc" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/e_res_0x7f11012d"/>
+                <TextView android:id="@+id/K_res_0x7f0901dd" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/DefaultText.OnBackground70.Standard"/>
+                <TextView android:id="@+id/I_res_0x7f0901db" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/b_res_0x7f11011b"/>
+                <LinearLayout android:id="@+id/D_res_0x7f0901d6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+                    <TextView android:id="@+id/E_res_0x7f0901d7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/result_2G_invalid_subtitle" style="@style/Header.Info.Small"/>
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/grid_eighth" android:src="@drawable/arrow_right_blue" android:importantForAccessibility="no" android:layout_marginStart="@dimen/b_res_0x7f0600a9"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"> xmlns:app=&quot;http://schemas.android.com/apk/res-auto&quot;&gt; 
+    <PreferenceCategory android:title="@string/tabs">
+        <MultiSelectListPreference android:entries="@array/activeTabs" android:title="@string/activeTabs" android:key="liActiveTabs" android:summary="@string/activeTabsSummary" android:entryValues="@array/activeTabs"/>
+        <CheckBoxPreference android:title="@string/showTabIcon" android:key="showTabIcon" android:summary="@string/preferencesShowTabIconSummary" android:defaultValue="@string/SHOW_TABICONS_DEFAULT"/>
+        <CheckBoxPreference android:title="@string/showTabText" android:key="showTabText" android:summary="@string/preferencesShowTabTextSummary" android:defaultValue="@string/SHOW_TABTEXT_DEFAULT"/>
+        <SwitchPreference android:title="@string/scrollableTabsText" android:key="swScrollableTabs" android:summary="@string/preferencesScrollableTabsSummary" android:defaultValue="@string/SCROLL_TABS_DEFAULT"/>
+    </PreferenceCategory>
+</PreferenceScreen>

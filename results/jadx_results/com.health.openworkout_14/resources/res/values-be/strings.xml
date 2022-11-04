@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Перайсці на галоўную старонку</string>
+    <string name="a_res_0x7f100008">Перайсці ўверх</string>
+    <string name="abc_action_menu_overflow_description">Дадатковыя параметры</string>
+    <string name="abc_action_mode_done">Гатова</string>
+    <string name="abc_activity_chooser_view_see_all">Паказаць усе</string>
+    <string name="abc_activitychooserview_choose_application">Выберыце праграму</string>
+    <string name="abc_capital_off">ВЫКЛ.</string>
+    <string name="abc_capital_on">УКЛ.</string>
+    <string name="b_res_0x7f10000f">Alt +</string>
+    <string name="c_res_0x7f100010">Ctrl +</string>
+    <string name="d_res_0x7f100011">Delete</string>
+    <string name="e_res_0x7f100012">Enter</string>
+    <string name="f_res_0x7f100013">Fn +</string>
+    <string name="g_res_0x7f100014">Meta +</string>
+    <string name="h_res_0x7f100015">Shift +</string>
+    <string name="i_res_0x7f100016">Прабел</string>
+    <string name="j_res_0x7f100017">Sym +</string>
+    <string name="k_res_0x7f100018">Меню +</string>
+    <string name="abc_search_hint">Пошук…</string>
+    <string name="abc_searchview_description_clear">Выдаліць запыт</string>
+    <string name="abc_searchview_description_query">Пошукавы запыт</string>
+    <string name="l_res_0x7f10001c">Пошук</string>
+    <string name="abc_searchview_description_submit">Адправіць запыт</string>
+    <string name="abc_searchview_description_voice">Галасавы пошук</string>
+    <string name="abc_shareactionprovider_share_with">Абагуліць праз</string>
+    <string name="abc_shareactionprovider_share_with_application">Абагуліць праз праграму \"%s\"</string>
+    <string name="abc_toolbar_collapse_description">Згарнуць</string>
+    <string name="a_res_0x7f10002b">Капіраваць</string>
+    <string name="b_res_0x7f10003f">Пашыраныя налады</string>
+    <string name="a_res_0x7f1000bb">Перайсці ўверх</string>
+    <string name="b_res_0x7f1000bc">Адкрыць высоўнае меню навігацыі</string>
+    <string name="c_res_0x7f1000c0">Не зададзена</string>
+    <string name="d_res_0x7f1000c6">\"%1$s\": скапіравана ў буфер абмену.</string>
+    <string name="search_menu_title">Пошук</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="e_res_0x7f1000de">%1$s, %2$s</string>
+    <string name="v7_preference_off">ВЫКЛ.</string>
+    <string name="v7_preference_on">УКЛ.</string>
+</resources>

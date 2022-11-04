@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Ugrás a főoldalra</string>
+    <string name="a_res_0x7f100008">Fel</string>
+    <string name="abc_action_menu_overflow_description">További lehetőségek</string>
+    <string name="abc_action_mode_done">Kész</string>
+    <string name="abc_activity_chooser_view_see_all">Az összes megtekintése</string>
+    <string name="abc_activitychooserview_choose_application">Válasszon alkalmazást</string>
+    <string name="abc_capital_off">KI</string>
+    <string name="abc_capital_on">BE</string>
+    <string name="b_res_0x7f10000f">Alt+</string>
+    <string name="c_res_0x7f100010">Ctrl+</string>
+    <string name="d_res_0x7f100011">Delete</string>
+    <string name="e_res_0x7f100012">Enter</string>
+    <string name="f_res_0x7f100013">Function+</string>
+    <string name="g_res_0x7f100014">Meta+</string>
+    <string name="h_res_0x7f100015">Shift+</string>
+    <string name="i_res_0x7f100016">Szóköz</string>
+    <string name="j_res_0x7f100017">Sym+</string>
+    <string name="k_res_0x7f100018">Menu+</string>
+    <string name="abc_search_hint">Keresés…</string>
+    <string name="abc_searchview_description_clear">Lekérdezés törlése</string>
+    <string name="abc_searchview_description_query">Keresési lekérdezés</string>
+    <string name="l_res_0x7f10001c">Keresés</string>
+    <string name="abc_searchview_description_submit">Lekérdezés küldése</string>
+    <string name="abc_searchview_description_voice">Hangalapú keresés</string>
+    <string name="abc_shareactionprovider_share_with">Megosztás a következővel:</string>
+    <string name="abc_shareactionprovider_share_with_application">Megosztás a következő alkalmazással: %s</string>
+    <string name="abc_toolbar_collapse_description">Összecsukás</string>
+    <string name="a_res_0x7f10002b">Másolás</string>
+    <string name="b_res_0x7f10003f">Speciális</string>
+    <string name="a_res_0x7f1000bb">Navigálás felfelé</string>
+    <string name="b_res_0x7f1000bc">Navigációs fiók kinyitása</string>
+    <string name="c_res_0x7f1000c0">Nincs beállítva</string>
+    <string name="d_res_0x7f1000c6">„%1$s” a vágólapra lett másolva.</string>
+    <string name="search_menu_title">Keresés</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="e_res_0x7f1000de">%1$s, %2$s</string>
+    <string name="v7_preference_off">KI</string>
+    <string name="v7_preference_on">BE</string>
+</resources>

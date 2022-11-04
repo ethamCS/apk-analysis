@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="@integer/mtrl_calendar_header_orientation" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <include layout="@layout/mtrl_picker_header_dialog"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/y_res_0x7f090184" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <androidx.fragment.app.FragmentContainerView android:id="@+id/x_res_0x7f090183" android:paddingLeft="@dimen/L" android:paddingRight="@dimen/L" android:paddingBottom="@dimen/K" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:paddingStart="@dimen/L" android:paddingEnd="@dimen/L"/>
+        <include android:layout_width="match_parent" android:layout_height="@dimen/mtrl_calendar_action_height" layout="@layout/mtrl_picker_actions"/>
+    </LinearLayout>
+</LinearLayout>

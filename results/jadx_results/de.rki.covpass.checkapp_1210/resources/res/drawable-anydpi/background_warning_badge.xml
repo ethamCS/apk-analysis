@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/warning"/>
+    <padding android:top="@dimen/grid_half" android:bottom="@dimen/grid_half" android:start="@dimen/grid_two" android:end="@dimen/grid_two"/>
+    <corners android:topLeftRadius="@dimen/grid_two" android:topRightRadius="@dimen/grid_two" android:bottomLeftRadius="@dimen/grid_two" android:bottomRightRadius="@dimen/grid_two"/>
+</shape>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navegar para a página inicial</string>
+    <string name="a_res_0x7f10005c">Navegar para cima</string>
+    <string name="abc_action_menu_overflow_description">Mais opções</string>
+    <string name="abc_action_mode_done">Concluído</string>
+    <string name="abc_activity_chooser_view_see_all">Ver tudo</string>
+    <string name="abc_activitychooserview_choose_application">Selecionar um app</string>
+    <string name="b_res_0x7f100061">DESATIVADO</string>
+    <string name="c_res_0x7f100062">ATIVADO</string>
+    <string name="d_res_0x7f100063">Alt+</string>
+    <string name="e_res_0x7f100064">Ctrl+</string>
+    <string name="f_res_0x7f100065">delete</string>
+    <string name="g_res_0x7f100066">enter</string>
+    <string name="h_res_0x7f100067">Function+</string>
+    <string name="i_res_0x7f100068">Meta+</string>
+    <string name="j_res_0x7f100069">Shift+</string>
+    <string name="k_res_0x7f10006a">espaço</string>
+    <string name="l_res_0x7f10006b">Sym+</string>
+    <string name="m_res_0x7f10006c">Menu+</string>
+    <string name="abc_search_hint">Pesquisar…</string>
+    <string name="abc_searchview_description_clear">Limpar consulta</string>
+    <string name="abc_searchview_description_query">Consulta de pesquisa</string>
+    <string name="n_res_0x7f100070">Pesquisar</string>
+    <string name="abc_searchview_description_submit">Enviar consulta</string>
+    <string name="abc_searchview_description_voice">Pesquisa por voz</string>
+    <string name="abc_shareactionprovider_share_with">Compartilhar com</string>
+    <string name="abc_shareactionprovider_share_with_application">Compartilhar com %s</string>
+    <string name="abc_toolbar_collapse_description">Recolher</string>
+    <string name="search_menu_title">Pesquisar</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="a_res_0x7f10021c">Barcode Scanner</string>
+    <string name="b_res_0x7f10021d">OK</string>
+    <string name="c_res_0x7f10021e">Desculpe, a câmera do Android encontrou um problema. Poderá precisar de reiniciar o dispositivo.</string>
+    <string name="zxing_msg_default_status">Alinhar código de barras com o exemplo para ser lido.</string>
+</resources>

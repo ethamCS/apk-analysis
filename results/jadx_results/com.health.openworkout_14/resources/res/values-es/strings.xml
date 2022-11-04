@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Ir a inicio</string>
+    <string name="a_res_0x7f100008">Desplazarse hacia arriba</string>
+    <string name="abc_action_menu_overflow_description">Más opciones</string>
+    <string name="abc_action_mode_done">Listo</string>
+    <string name="abc_activity_chooser_view_see_all">Ver todo</string>
+    <string name="abc_activitychooserview_choose_application">Seleccionar una aplicación</string>
+    <string name="abc_capital_off">DESACTIVADO</string>
+    <string name="abc_capital_on">ACTIVADO</string>
+    <string name="b_res_0x7f10000f">Alt +</string>
+    <string name="c_res_0x7f100010">Ctrl +</string>
+    <string name="d_res_0x7f100011">Suprimir</string>
+    <string name="e_res_0x7f100012">Intro</string>
+    <string name="f_res_0x7f100013">Función +</string>
+    <string name="g_res_0x7f100014">Meta +</string>
+    <string name="h_res_0x7f100015">Mayús +</string>
+    <string name="i_res_0x7f100016">Espacio</string>
+    <string name="j_res_0x7f100017">Sym +</string>
+    <string name="k_res_0x7f100018">Menú +</string>
+    <string name="abc_search_hint">Buscar…</string>
+    <string name="abc_searchview_description_clear">Borrar consulta</string>
+    <string name="abc_searchview_description_query">Consulta de búsqueda</string>
+    <string name="l_res_0x7f10001c">Buscar</string>
+    <string name="abc_searchview_description_submit">Enviar consulta</string>
+    <string name="abc_searchview_description_voice">Búsqueda por voz</string>
+    <string name="abc_shareactionprovider_share_with">Compartir con</string>
+    <string name="abc_shareactionprovider_share_with_application">Compartir con %s</string>
+    <string name="abc_toolbar_collapse_description">Ocultar</string>
+    <string name="a_res_0x7f10002b">Copiar</string>
+    <string name="b_res_0x7f10003f">Avanzado</string>
+    <string name="a_res_0x7f1000bb">Desplazarse hacia arriba</string>
+    <string name="b_res_0x7f1000bc">Abrir panel de navegación</string>
+    <string name="c_res_0x7f1000c0">Sin definir</string>
+    <string name="d_res_0x7f1000c6">\"%1$s\" se ha copiado en el portapapeles.</string>
+    <string name="search_menu_title">Buscar</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="e_res_0x7f1000de">%1$s, %2$s</string>
+    <string name="v7_preference_off">DESACTIVADA</string>
+    <string name="v7_preference_on">ACTIVADO</string>
+</resources>

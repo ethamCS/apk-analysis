@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:id="@+id/month_navigation_bar" android:paddingTop="@dimen/u" android:paddingBottom="@dimen/s" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <com.google.android.material.button.MaterialButton android:gravity="start|center_vertical" android:layout_gravity="start" android:id="@+id/f_res_0x7f09010c" android:layout_width="wrap_content" android:layout_height="@dimen/t" android:insetTop="0dp" android:insetBottom="0dp" app:icon="@drawable/material_ic_menu_arrow_down_black_24dp" app:iconGravity="0x4" app:iconPadding="4dp"/>
+    </FrameLayout>
+    <com.google.android.material.button.MaterialButton android:gravity="center" android:id="@+id/h_res_0x7f09010e" android:layout_width="@dimen/z" android:layout_height="@dimen/t" android:insetTop="0dp" android:insetBottom="0dp" android:contentDescription="@string/mtrl_picker_a11y_prev_month" app:icon="@drawable/material_ic_keyboard_arrow_left_black_24dp"/>
+    <com.google.android.material.button.MaterialButton android:gravity="center" android:id="@+id/g_res_0x7f09010d" android:layout_width="@dimen/z" android:layout_height="@dimen/t" android:insetTop="0dp" android:insetBottom="0dp" android:contentDescription="@string/mtrl_picker_a11y_next_month" app:icon="@drawable/material_ic_keyboard_arrow_right_black_24dp"/>
+</LinearLayout>

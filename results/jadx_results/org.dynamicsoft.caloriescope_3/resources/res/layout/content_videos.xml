@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/container" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <LinearLayout android:orientation="vertical" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="55sp">
+        <ListView android:id="@+id/list" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ListView android:id="@+id/list2" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView android:id="@+id/navigation" android:background="?android:attr/windowBackground" android:layout_width="0sp" android:layout_height="wrap_content" android:layout_marginStart="0sp" android:layout_marginEnd="0sp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:menu="@menu/videos_navigation"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

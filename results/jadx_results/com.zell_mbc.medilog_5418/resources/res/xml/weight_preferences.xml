@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"> xmlns:app=&quot;http://schemas.android.com/apk/res-auto&quot;&gt; 
+    <PreferenceCategory android:title="@string/general">
+        <EditTextPreference android:text="80" android:selectAllOnFocus="true" android:title="@string/threshold" android:key="etWeightThreshold" android:summary="@string/thresholdSummaryUpper" android:defaultValue="@string/WEIGHT_THRESHOLD_DEFAULT" android:inputType="number"/>
+        <SwitchPreference android:title="@string/showTime" android:key="swWeightShowtime" android:summary="@string/showTimeSummary" android:defaultValue="@string/SHOWTIME_DEFAULT"/>
+        <SwitchPreference android:title="@string/highlightValues" android:key="cbWeightHighlightValues" android:summary="@string/highlightValuesSummaryHigh" android:defaultValue="@string/WEIGHT_HIGHLIGHT_VALUES_DEFAULT"/>
+        <EditTextPreference android:text="kg" android:singleLine="true" android:selectAllOnFocus="true" android:title="@string/unit" android:key="etWeightUnit" android:summary="@string/weightUnitSummary" android:defaultValue="@string/WEIGHT_UNIT_DEFAULT"/>
+        <SwitchPreference android:title="@string/logBodyFat" android:key="cbLogBodyFat" android:summary="@string/logBodyFatSummary" android:defaultValue="@string/LOG_FAT_DEFAULT"/>
+        <EditTextPreference android:text="kg" android:singleLine="true" android:selectAllOnFocus="true" android:title="@string/bodyFatMinMax" android:key="etFatMinMax" android:summary="@string/bodyFatMinMaxSummary" android:defaultValue="@string/FAT_MIN_MAX_DEFAULT"/>
+        <EditTextPreference android:singleLine="true" android:selectAllOnFocus="true" android:title="@string/height" android:key="etHeight" android:summary="@string/heightSummary" android:defaultValue="" android:inputType="number"/>
+        <EditTextPreference android:singleLine="true" android:selectAllOnFocus="true" android:title="@string/tare" android:key="etTare" android:summary="@string/tareSummary" android:defaultValue="@string/WEIGHT_TARE_DEFAULT" android:inputType="number"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/actionPDF">
+        <SwitchPreference android:title="@string/landscapeOrientation" android:key="cbWeightLandscape" android:summary="@string/landscapeOrientationSummary" android:defaultValue="@string/WEIGHT_LANDSCAPE_DEFAULT"/>
+        <ListPreference android:entries="@array/paperSizes" android:title="@string/paperSize" android:key="liWeightPaperSize" android:summary="@string/paperSizeSummary" android:defaultValue="@string/WEIGHT_PAPER_SIZE_DEFAULT" android:entryValues="@array/paperSizes"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/chart">
+        <SwitchPreference android:title="@string/showThresholds" android:key="cbShowWeightThreshold" android:summary="@string/showThresholdsSummary" android:defaultValue="@string/SHOW_WEIGHT_THRESHOLD_DEFAULT"/>
+        <SwitchPreference android:title="@string/showGrid" android:key="cbShowWeightGrid" android:summary="@string/showGridSummary" android:defaultValue="@string/SHOW_WEIGHT_GRID_DEFAULT"/>
+        <SwitchPreference android:title="@string/showLegend" android:key="cbShowWeightLegend" android:summary="@string/showLegendSummary" android:defaultValue="@string/SHOW_WEIGHT_LEGEND_DEFAULT"/>
+        <SwitchPreference android:title="@string/showValues" android:key="cbWeightShowValues" android:summary="@string/showValuesSummary" android:defaultValue="true"/>
+        <SwitchPreference android:title="@string/linearTrendLine" android:key="cbWeightLinearTrendline" android:summary="@string/linearTrendlineSummary" android:defaultValue="@string/WEIGHT_LINEAR_TRENDLINE_DEFAULT"/>
+        <SwitchPreference android:title="@string/movingAverageTrendLine" android:key="cbWeightMovingAverageTrendline" android:summary="@string/movingAverageTrendlineSummary" android:defaultValue="@string/WEIGHT_MOVING_AVERAGE_TRENDLINE_DEFAULT"/>
+        <EditTextPreference android:selectAllOnFocus="true" android:title="@string/movingAverageTrendLineSize" android:key="etWeightMovingAverageSize" android:summary="@string/movingAverageTrendlineSizeSummary" android:defaultValue="@string/WEIGHT_MOVING_AVERAGE_SIZE_DEFAULT" android:inputType="number"/>
+        <SwitchPreference android:title="@string/barChart" android:key="cbWeightBarChart" android:summary="@string/barChartSummary" android:defaultValue="@string/KEY_PREF_WEIGHT_BAR_CHART_DEFAULT"/>
+        <SwitchPreference android:title="@string/dayStepping" android:key="cbWeightDayStepping" android:summary="@string/daySteppingSummary" android:defaultValue="@string/KEY_PREF_WEIGHT_DAY_STEPPING_DEFAULT"/>
+    </PreferenceCategory>
+</PreferenceScreen>

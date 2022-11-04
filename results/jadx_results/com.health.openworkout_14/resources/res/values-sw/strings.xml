@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Nenda mwanzo</string>
+    <string name="a_res_0x7f100008">Sogeza juu</string>
+    <string name="abc_action_menu_overflow_description">Chaguo zaidi</string>
+    <string name="abc_action_mode_done">Nimemaliza</string>
+    <string name="abc_activity_chooser_view_see_all">Angalia zote</string>
+    <string name="abc_activitychooserview_choose_application">Chagua programu</string>
+    <string name="abc_capital_off">IMEZIMWA</string>
+    <string name="abc_capital_on">IMEWASHWA</string>
+    <string name="b_res_0x7f10000f">Alt+</string>
+    <string name="c_res_0x7f100010">Ctrl+</string>
+    <string name="d_res_0x7f100011">delete</string>
+    <string name="e_res_0x7f100012">enter</string>
+    <string name="f_res_0x7f100013">Function+</string>
+    <string name="g_res_0x7f100014">Meta+</string>
+    <string name="h_res_0x7f100015">Shift+</string>
+    <string name="i_res_0x7f100016">space</string>
+    <string name="j_res_0x7f100017">Sym+</string>
+    <string name="k_res_0x7f100018">Menu+</string>
+    <string name="abc_search_hint">Tafuta…</string>
+    <string name="abc_searchview_description_clear">Futa hoja</string>
+    <string name="abc_searchview_description_query">Hoja ya utafutaji</string>
+    <string name="l_res_0x7f10001c">Tafuta</string>
+    <string name="abc_searchview_description_submit">Wasilisha hoja</string>
+    <string name="abc_searchview_description_voice">Kutafuta kwa kutamka</string>
+    <string name="abc_shareactionprovider_share_with">Shiriki na</string>
+    <string name="abc_shareactionprovider_share_with_application">Shiriki ukitumia %s</string>
+    <string name="abc_toolbar_collapse_description">Kunja</string>
+    <string name="a_res_0x7f10002b">Nakili</string>
+    <string name="b_res_0x7f10003f">Mipangilio ya Kina</string>
+    <string name="a_res_0x7f1000bb">Sogeza juu</string>
+    <string name="b_res_0x7f1000bc">Fungua droo ya kusogeza</string>
+    <string name="c_res_0x7f1000c0">Haijawekwa</string>
+    <string name="d_res_0x7f1000c6">\"%1$s\" imenakiliwa kwenye ubao wa kunakili.</string>
+    <string name="search_menu_title">Tafuta</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="e_res_0x7f1000de">%1$s, %2$s</string>
+    <string name="v7_preference_off">IMEZIMWA</string>
+    <string name="v7_preference_on">IMEWASHWA</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"> xmlns:app=&quot;http://schemas.android.com/apk/res-auto&quot;&gt; 
+    <SwitchPreference android:title="@string/blockScreenshots" android:key="spBlockScreenshots" android:summary="@string/blockScreenshotsDescription" android:defaultValue="false"/>
+    <SwitchPreference android:title="@string/biometricLogin" android:key="spEnableBiometric" android:summary="@string/biometricLoginDescription" android:defaultValue="@string/BIOMETRICS_DEFAULT"/>
+    <EditTextPreference android:text="@string/FORCE_REAUTHENTICATION_DEFAULT" android:selectAllOnFocus="true" android:maxLength="1" android:title="@string/authenticationTimeout" android:key="etAuthenticationTimeout" android:summary="@string/authenticationTimeoutSummary" android:defaultValue="@string/FORCE_REAUTHENTICATION_DEFAULT" android:inputType="number"/>
+</PreferenceScreen>

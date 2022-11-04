@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+            <TextView android:textColor="@color/white" android:id="@+id/SensitivityTextView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/accelerometer_sensitivity_30" android:layout_weight="1"/>
+            <SeekBar android:id="@+id/SensitivitySeekBar" android:background="@drawable/shape_oval" android:padding="3dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/white" android:padding="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5sp" android:text="@string/news_country"/>
+            <EditText android:id="@+id/DefaultNewsCountryEditText" android:background="@drawable/shape_oval" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5sp" android:hint="@string/for_ex_us"/>
+        </LinearLayout>
+        <EditText android:id="@+id/YouTubeKeyEditText" android:background="@drawable/shape_oval" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:hint="@string/change_youtube_datav3_api_key"/>
+        <TextView android:textColor="@color/white" android:padding="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5sp" android:text="@string/change_youtube_channel_id_for_healthy_food"/>
+        <EditText android:id="@+id/YouTubeHealthyFoodChannelIDText" android:background="@drawable/shape_oval" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:hint="@string/for_ex_youtube_channel_id_healthy_food"/>
+        <TextView android:textColor="@color/white" android:padding="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5sp" android:text="@string/change_youtube_channel_id_for_exercises"/>
+        <EditText android:id="@+id/YouTubeExerciseChannelIDText" android:background="@drawable/shape_oval" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:hint="@string/for_ex_youtube_channel_id_exercises"/>
+        <EditText android:id="@+id/NewsApiOrgKeyEditText" android:background="@drawable/shape_oval" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:hint="@string/enter_your_own_newsapi_org_api_key"/>
+        <Button android:textColor="@color/black" android:id="@+id/SaveSettings" android:background="@drawable/shape_oval" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30sp" android:layout_marginTop="30sp" android:layout_marginRight="30sp" android:text="@string/Save"/>
+        <Button android:textColor="@color/black" android:id="@+id/LoadDefaults" android:background="@drawable/shape_oval" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30sp" android:layout_marginTop="15sp" android:layout_marginRight="30sp" android:text="@string/Load_Defaults"/>
+        <Button android:textColor="@color/red" android:id="@+id/ClearAppData" android:background="@drawable/shape_oval" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30sp" android:layout_marginTop="15sp" android:layout_marginRight="30sp" android:text="@string/Clear_App_Data"/>
+    </LinearLayout>
+</ScrollView>

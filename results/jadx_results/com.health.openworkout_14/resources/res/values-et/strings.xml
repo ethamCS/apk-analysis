@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Liigu avalehele</string>
+    <string name="a_res_0x7f100008">Liigu üles</string>
+    <string name="abc_action_menu_overflow_description">Rohkem valikuid</string>
+    <string name="abc_action_mode_done">Valmis</string>
+    <string name="abc_activity_chooser_view_see_all">Kuva kõik</string>
+    <string name="abc_activitychooserview_choose_application">Valige rakendus</string>
+    <string name="abc_capital_off">VÄLJAS</string>
+    <string name="abc_capital_on">SEES</string>
+    <string name="b_res_0x7f10000f">Alt +</string>
+    <string name="c_res_0x7f100010">Ctrl +</string>
+    <string name="d_res_0x7f100011">kustuta</string>
+    <string name="e_res_0x7f100012">sisestusklahv</string>
+    <string name="f_res_0x7f100013">Funktsiooniklahv +</string>
+    <string name="g_res_0x7f100014">Meta +</string>
+    <string name="h_res_0x7f100015">Tõstuklahv +</string>
+    <string name="i_res_0x7f100016">tühik</string>
+    <string name="j_res_0x7f100017">Sym +</string>
+    <string name="k_res_0x7f100018">Menüü +</string>
+    <string name="abc_search_hint">Otsige …</string>
+    <string name="abc_searchview_description_clear">Päringu tühistamine</string>
+    <string name="abc_searchview_description_query">Otsingupäring</string>
+    <string name="l_res_0x7f10001c">Otsing</string>
+    <string name="abc_searchview_description_submit">Päringu esitamine</string>
+    <string name="abc_searchview_description_voice">Häälotsing</string>
+    <string name="abc_shareactionprovider_share_with">Jaga:</string>
+    <string name="abc_shareactionprovider_share_with_application">Jagamine rakendusega %s</string>
+    <string name="abc_toolbar_collapse_description">Ahendamine</string>
+    <string name="a_res_0x7f10002b">Kopeerimine</string>
+    <string name="b_res_0x7f10003f">Täpsemad</string>
+    <string name="a_res_0x7f1000bb">Navigeeri üles</string>
+    <string name="b_res_0x7f1000bc">Navigeerimissahtli avamine</string>
+    <string name="c_res_0x7f1000c0">Määramata</string>
+    <string name="d_res_0x7f1000c6">„%1$s” on lõikelauale kopeeritud.</string>
+    <string name="search_menu_title">Otsing</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="e_res_0x7f1000de">%1$s, %2$s</string>
+    <string name="v7_preference_off">VÄLJAS</string>
+    <string name="v7_preference_on">SEES</string>
+</resources>

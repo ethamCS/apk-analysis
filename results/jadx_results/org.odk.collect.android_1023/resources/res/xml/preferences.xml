@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:id="@+id/info" android:title="@string/app_name" android:key="info" android:summary="@string/click_to_web">
+        <intent android:action="android.intent.action.VIEW" android:data="http://opendatakit.org"/>
+    </PreferenceScreen>
+    <PreferenceCategory android:title="@string/server_preferences" android:key="@string/server_preferences">
+        <ListPreference android:entries="@array/protocol_entries" android:id="@+id/protocol" android:title="@string/protocol" android:key="protocol" android:defaultValue="odk_default" android:dialogTitle="@string/change_protocol" android:entryValues="@array/protocol_entry_values"/>
+        <EditTextPreference android:id="@+id/server_url" android:title="@string/server_url" android:key="server_url" android:defaultValue="@string/default_server_url" android:dialogTitle="@string/change_server_url" android:inputType="textNoSuggestions"/>
+        <EditTextPreference android:id="@+id/username" android:title="@string/username" android:key="username" android:dialogTitle="@string/change_username" android:inputType="textNoSuggestions"/>
+        <EditTextPreference android:id="@+id/password" android:title="@string/password" android:key="password" android:dialogTitle="@string/change_password" android:inputType="textNoSuggestions"/>
+        <PreferenceScreen android:id="@+id/selected_google_account" android:title="@string/selected_google_account_text" android:key="selected_google_account" android:defaultValue=""/>
+        <EditTextPreference android:id="@+id/formlist_url" android:title="@string/formlist_url" android:key="formlist_url" android:defaultValue="@string/default_odk_formlist" android:dialogTitle="@string/change_formlist_url" android:inputType="textNoSuggestions"/>
+        <EditTextPreference android:id="@+id/submission_url" android:title="@string/submission_url" android:key="submission_url" android:defaultValue="@string/default_odk_submission" android:dialogTitle="@string/change_submission_url" android:inputType="textNoSuggestions"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/client" android:key="@string/client">
+        <ListPreference android:entries="@array/font_size_entries" android:id="@+id/font_size" android:title="@string/font_size" android:key="font_size" android:defaultValue="21" android:dialogTitle="@string/change_font_size" android:entryValues="@array/font_size_entry_values"/>
+        <CheckBoxPreference android:id="@+id/default_completed" android:title="@string/default_completed" android:key="default_completed" android:summary="@string/default_completed_summary" android:defaultValue="true"/>
+        <CheckBoxPreference android:id="@+id/show_splash" android:title="@string/show_splash" android:key="showSplash" android:summary="@string/show_splash_summary"/>
+        <PreferenceScreen android:id="@+id/splash_path" android:layout="?android:attr/preferenceLayoutChild" android:title="@string/splash_path" android:key="splashPath" android:dependency="showSplash" android:defaultValue="@string/default_splash_path"/>
+    </PreferenceCategory>
+</PreferenceScreen>

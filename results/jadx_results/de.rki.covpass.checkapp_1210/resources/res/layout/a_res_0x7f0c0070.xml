@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/a_res_0x7f09019f" android:background="@color/navigator_modal_overlay_color" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"/>

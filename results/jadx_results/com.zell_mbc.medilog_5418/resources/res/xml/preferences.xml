@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/general">
+        <Preference android:icon="@drawable/ic_baseline_settings_24" android:title="@string/general" app:fragment="com.zell_mbc.medilog.settings.GeneralSettingsFragment"/>
+        <Preference android:icon="@drawable/ic_outline_lock_24" android:title="@string/privacy" app:fragment="com.zell_mbc.medilog.settings.PrivacySettingsFragment"/>
+        <Preference android:icon="@drawable/ic_baseline_tab_24" android:title="@string/tabs" app:fragment="com.zell_mbc.medilog.settings.TabSettingsFragment"/>
+        <Preference android:icon="@drawable/ic_file_download_black_24dp" android:title="@string/action_backup" app:fragment="com.zell_mbc.medilog.settings.BackupSettingsFragment"/>
+        <Preference android:icon="@drawable/ic_baseline_call_made_24" android:title="@string/userFeedback" app:fragment="com.zell_mbc.medilog.settings.UserFeedbackFragment"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/tabs">
+        <Preference android:icon="@drawable/ic_weight" android:title="@string/weight" app:fragment="com.zell_mbc.medilog.settings.WeightSettingsFragment"/>
+        <Preference android:icon="@drawable/ic_bloodpressure" android:title="@string/bloodPressure" app:fragment="com.zell_mbc.medilog.settings.BloodPressureSettingsFragment"/>
+    </PreferenceCategory>
+    <Preference android:icon="@drawable/ic_diary" android:title="@string/diary" app:fragment="com.zell_mbc.medilog.settings.DiarySettingsFragment"/>
+    <Preference android:icon="@drawable/ic_water" android:title="@string/water" app:fragment="com.zell_mbc.medilog.settings.WaterSettingsFragment"/>
+    <Preference android:icon="@drawable/ic_glucose" android:title="@string/glucose" app:fragment="com.zell_mbc.medilog.settings.GlucoseSettingsFragment"/>
+    <Preference android:icon="@drawable/ic_outline_device_thermostat_24" android:title="@string/temperature" app:fragment="com.zell_mbc.medilog.settings.TemperatureSettingsFragment"/>
+    <Preference android:icon="@drawable/ic_oximetry" android:title="@string/oximetry" app:fragment="com.zell_mbc.medilog.settings.OximetrySettingsFragment"/>
+</PreferenceScreen>
