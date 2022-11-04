@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:icon="@drawable/ic_reset" android:id="@+id/reset" android:title="@string/label_reset" app:showAsAction="ifRoom"/>
-    <item android:icon="@drawable/ic_edit" android:id="@+id/edit" android:title="@string/label_edit" app:showAsAction="always"/>
-    <item android:icon="@drawable/ic_save" android:id="@+id/save" android:title="@string/label_save" app:showAsAction="always"/>
-</menu>

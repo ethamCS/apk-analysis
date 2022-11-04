@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/mtrl_picker_fullscreen" android:layout_width="match_parent" android:layout_height="match_parent">
-    <include layout="@layout/mtrl_picker_header_fullscreen"/>
-    <androidx.fragment.app.FragmentContainerView android:id="@+id/x_res_0x7f090183" android:paddingLeft="@dimen/L" android:paddingRight="@dimen/L" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/L" android:paddingEnd="@dimen/L"/>
-</LinearLayout>

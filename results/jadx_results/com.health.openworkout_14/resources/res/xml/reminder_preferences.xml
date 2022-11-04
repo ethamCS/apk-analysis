@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
-    <SwitchPreferenceCompat app:defaultValue="false" app:key="reminderEnable" app:title="@string/preference_reminder"/>
-    <MultiSelectListPreference app:defaultValue="@array/days_default" app:dependency="reminderEnable" app:dialogTitle="@string/preference_reminder_days" app:entries="@array/days_entries" app:entryValues="@array/days_values" app:key="reminderDays" app:title="@string/preference_reminder_days"/>
-    <com.health.openworkout.gui.preference.TimePreference app:defaultValue="0" app:dependency="reminderEnable" app:key="reminderTime" app:title="@string/preference_reminder_time" style="@style/AppPreference.DialogPreference"/>
-    <EditTextPreference app:defaultValue="@string/preference_reminder_default_text" app:dependency="reminderEnable" app:key="reminderNotifyText" app:title="@string/preference_reminder_text" app:useSimpleSummaryProvider="true"/>
-</PreferenceScreen>

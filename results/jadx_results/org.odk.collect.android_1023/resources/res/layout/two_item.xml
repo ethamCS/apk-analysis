@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="8dp" android:paddingTop="4dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeight">
-    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="center_vertical" android:id="@+id/text1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
-    <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/text3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/text1" android:layout_alignParentLeft="true"/>
-    <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:gravity="center_vertical" android:id="@+id/text2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/text3" android:layout_alignParentLeft="true"/>
-</RelativeLayout>

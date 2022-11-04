@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
-    <SwitchPreferenceCompat app:defaultValue="false" app:key="speechWorkoutState" app:title="@string/preference_speech_workout_state" app:useSimpleSummaryProvider="true"/>
-    <SwitchPreferenceCompat app:defaultValue="false" app:key="speechCountdown" app:title="@string/preference_speech_countdown" app:useSimpleSummaryProvider="true"/>
-</PreferenceScreen>

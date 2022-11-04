@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/MD_ListItem">
-    <com.afollestad.materialdialogs.internal.rtl.RtlTextView android:id="@+id/md_title" style="@style/MD_ListItemText"/>
-</LinearLayout>

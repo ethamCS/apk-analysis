@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.journeyapps.barcodescanner.BarcodeView android:id="@+id/b_res_0x7f0902c9" android:layout_width="match_parent" android:layout_height="match_parent"/>
-    <com.journeyapps.barcodescanner.ViewfinderView android:id="@+id/l_res_0x7f0902d3" android:layout_width="match_parent" android:layout_height="match_parent" app:zxing_possible_result_points="@color/zxing_transparent" app:zxing_viewfinder_laser_visibility="false" app:zxing_viewfinder_mask="@color/zxing_transparent"/>
-</merge>

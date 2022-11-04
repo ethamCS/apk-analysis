@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="k_res_0x7f0700cd">0dp</dimen>
-    <dimen name="mtrl_calendar_day_corner">22dp</dimen>
-    <dimen name="m">48dp</dimen>
-    <dimen name="n">48dp</dimen>
-    <dimen name="o">48dp</dimen>
-    <dimen name="q">0dp</dimen>
-</resources>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <TextView android:gravity="start|center_vertical" android:id="@+id/i_res_0x7f09010f" android:focusable="true" android:layout_width="match_parent" android:layout_height="@dimen/m" style="@style/TextAppearance.MaterialComponents.Subtitle2"/>
-    <include layout="@layout/mtrl_calendar_month"/>
-</LinearLayout>

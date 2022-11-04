@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="?android:attr/dividerVertical" android:showDividers="middle">
-    <TextView android:textSize="@dimen/recyclerViewTextSize" android:gravity="start" android:layout_gravity="start" android:id="@+id/tvDateItem" android:layout_width="140dp" android:layout_height="wrap_content" android:layout_weight="0"/>
-    <TextView android:textSize="@dimen/recyclerViewTextSize" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/tvWaterItem" android:layout_width="70dp" android:layout_height="wrap_content" android:layout_weight="0"/>
-    <TextView android:textSize="@dimen/recyclerViewTextSize" android:ellipsize="end" android:gravity="start" android:layout_gravity="start" android:id="@+id/tvCommentItem" android:layout_width="0dp" android:layout_height="wrap_content" android:lines="1" android:scrollHorizontally="true" android:layout_weight="1"/>
-</LinearLayout>

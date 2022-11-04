@@ -1,2 +1,0 @@
-com.fasterxml.jackson.datatype.jsr310.JavaTimeModule
-com.fasterxml.jackson.module.kotlin.KotlinModule

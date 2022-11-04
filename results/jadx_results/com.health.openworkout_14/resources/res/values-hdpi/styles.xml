@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="b_res_0x7f1100b6" parent="@style/Base.Widget.AppCompat.DrawerArrowToggle.Common">
-        <item name="barLength">18.66dp</item>
-        <item name="drawableSize">24dp</item>
-        <item name="gapBetweenBars">3.33dp</item>
-    </style>
-</resources>

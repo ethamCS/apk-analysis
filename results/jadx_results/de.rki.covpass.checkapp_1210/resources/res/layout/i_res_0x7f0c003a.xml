@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:ellipsize="end" android:id="@+id/title_textview" android:paddingLeft="@dimen/grid_three" android:paddingTop="@dimen/grid_three" android:paddingRight="@dimen/grid_three" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="6" android:paddingHorizontal="@dimen/grid_three" style="@style/e_res_0x7f11012d"/>

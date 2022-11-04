@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="a_res_0x7f10021c">סורק ברקודים</string>
-    <string name="b_res_0x7f10021d">אישור</string>
-    <string name="c_res_0x7f10021e">סליחה, מצלמת האנדרואיד נתקלה בבעיה. ייתכן שיהיה עליך להפעיל מחדש את המכשיר.</string>
-    <string name="zxing_msg_default_status">הצב ברקוד בתוך המלבן כדי לסרוק אותו.</string>
-</resources>

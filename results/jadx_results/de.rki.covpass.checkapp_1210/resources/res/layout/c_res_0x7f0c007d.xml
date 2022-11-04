@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/backgroundSecondary" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <TextView android:id="@+id/i0_res_0x7f0901f7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/grid_three" android:layout_marginTop="@dimen/grid_one_half" android:layout_marginRight="@dimen/grid_three" android:layout_marginHorizontal="@dimen/grid_three" style="@style/d_res_0x7f11012c"/>
-    <TextView android:id="@+id/j0_res_0x7f0901f8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/grid_three" android:layout_marginRight="@dimen/grid_three" android:layout_marginBottom="@dimen/grid_one_half" android:layout_marginHorizontal="@dimen/grid_three" style="@style/a_res_0x7f110118"/>
-    <View style="@style/Divider"/>
-</LinearLayout>

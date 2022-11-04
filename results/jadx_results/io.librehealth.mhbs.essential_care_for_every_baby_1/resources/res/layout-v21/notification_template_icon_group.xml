@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/icon_group" android:layout_width="@dimen/d" android:layout_height="@dimen/notification_large_icon_height">
-    <ImageView android:id="@+id/b_res_0x7f050039" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/c" android:layout_marginBottom="@dimen/c" android:scaleType="centerInside" android:layout_marginStart="@dimen/c" android:layout_marginEnd="@dimen/c"/>
-    <ImageView android:layout_gravity="end|bottom" android:id="@+id/g" android:visibility="gone" android:layout_width="@dimen/e" android:layout_height="@dimen/e" android:layout_marginBottom="8dp" android:scaleType="centerInside" android:layout_marginEnd="8dp"/>
-</FrameLayout>

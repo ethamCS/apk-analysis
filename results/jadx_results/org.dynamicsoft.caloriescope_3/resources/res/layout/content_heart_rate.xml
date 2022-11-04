@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
-    <com.gigamole.library.PulseView android:id="@+id/pulse" android:layout_width="match_parent" android:layout_height="300sp" app:pv_alpha="100" app:pv_color="@color/white" app:pv_icon="@drawable/heart" app:pv_interpolator="@android:anim/linear_interpolator" app:pv_measure="1" app:pv_spawn_period="500"/>
-    <TextView android:textSize="15sp" android:textColor="@color/white" android:id="@+id/HeartRateTxt" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/Keep_finger_on_HRM_sensor" android:textAlignment="center"/>
-</LinearLayout>

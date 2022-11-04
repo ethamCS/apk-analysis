@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-    <TextView android:textSize="14sp" android:id="@+id/status_text" android:background="#dddddd" android:paddingLeft="8dp" android:paddingTop="4dp" android:paddingRight="8dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/form_scan_starting"/>
-    <ListView android:id="@android:id/list" android:layout_width="match_parent" android:layout_height="match_parent"/>
-    <TextView android:textSize="21sp" android:textColor="@drawable/black" android:gravity="center" android:id="@android:id/empty" android:background="@drawable/white" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/no_items_display_forms"/>
-</LinearLayout>

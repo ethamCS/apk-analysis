@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/backgroundPrimary" android:layout_width="match_parent" android:layout_height="match_parent">
-    <de.rki.covpass.commonapp.uielements.CenteredTitleToolbar android:theme="@style/CovPassAppTheme.DarkControlHighlight" android:gravity="center_vertical" android:id="@+id/B0_res_0x7f0901bd" android:background="@color/backgroundPrimary" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/grid_seven" android:paddingStart="@dimen/b_res_0x7f0600a9" android:paddingEnd="@dimen/b_res_0x7f0600a9" android:elevation="@dimen/elevation" app:popupTheme="@style/CovPassAppTheme.DarkControlHighlight"/>
-    <androidx.recyclerview.widget.RecyclerView android:id="@+id/A0_res_0x7f0901bc" android:layout_width="match_parent" android:layout_height="match_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
-</LinearLayout>

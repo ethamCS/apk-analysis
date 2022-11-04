@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
-    <SwitchPreferenceCompat app:defaultValue="false" app:icon="@drawable/ic_dark_mode" app:key="darkTheme" app:title="@string/preference_enable_dark_theme" app:useSimpleSummaryProvider="true"/>
-    <SwitchPreferenceCompat app:defaultValue="false" app:icon="@drawable/ic_debug_logging" app:key="debugLogging" app:title="@string/preference_enable_debug_logging" app:useSimpleSummaryProvider="true"/>
-    <Preference app:icon="@drawable/ic_reminder" app:key="reminder" app:title="@string/preference_reminder"/>
-    <Preference app:icon="@drawable/ic_sound" app:key="sound" app:title="@string/preference_sound"/>
-    <Preference app:icon="@drawable/ic_billing" app:key="removeAd" app:title="@string/preference_remove_advertisements"/>
-</PreferenceScreen>
